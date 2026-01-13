@@ -32,19 +32,16 @@ Raw data files are stored locally and excluded from version control.
 
 ## Project Structure
 
-decision-intelligence-risk-system/
-├── data/
-│ ├── raw/
-│ └── processed/
-├── schema/
-├── pipelines/
-├── notebooks/
-├── reports/
-├── dashboard/
-├── stata/
-├── excel/
-├── docs/
-└── README.md
+- `data/` – Raw and processed datasets 
+- `schema/` – SQL schema definitions
+- `pipelines/` – Data processing scripts
+- `notebooks/` – Exploratory analysis and modeling
+- `reports/` – Statistical reports and summaries
+- `dashboard/` – Visualization assets
+- `stata/` – Stata scripts for validation
+- `excel/` – Business-facing tools
+- `docs/` – Documentation and diagrams
+
 
 
 ---
